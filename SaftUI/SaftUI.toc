@@ -1,0 +1,8 @@
+## Interface: 50400
+## Author: Safturento
+## Version: 0.5
+## Title: |cff00adefSaftUI|r
+## Notes: Development version of SaftUI.
+## SavedVariables:SaftUISaved
+
+SaftUI.xml

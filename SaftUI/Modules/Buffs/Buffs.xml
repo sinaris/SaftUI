@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Include file='SecureAuraTemplate.xml'/>
+	<Script file="Buffs.lua"/>
+	
+</Ui>

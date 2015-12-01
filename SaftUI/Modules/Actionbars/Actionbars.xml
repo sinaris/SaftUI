@@ -1,0 +1,9 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	
+	<Script file="Actionbars.lua"/>
+	<Script file="Petbar.lua"/>
+	<Script file="ExtraActionButton.lua"/>
+	<Script file="Hoverbind.lua"/>
+	<Script file="Cooldowns.lua"/>
+	<Script file="Style.lua"/>
+</Ui>

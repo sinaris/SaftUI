@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Script file="ClassBars.lua"/>
+	<Script file="modules\ComboPoints.lua"/>
+	<Script file="modules\RuneBar.lua"/>
+	<Script file="modules\TotemTimers.lua"/>
+	<Script file="modules\Fulmination.lua"/>
+	<Script file="modules\HolyPower.lua"/>
+	<Script file="modules\EclipseBar.lua"/>
+	<Script file="modules\SoulShards.lua"/>
+	<Script file="modules\BurningEmbers.lua"/>
+	<Script file="modules\DemonicFury.lua"/>
+	<Script file="modules\Chi.lua"/>
+	
+</Ui>

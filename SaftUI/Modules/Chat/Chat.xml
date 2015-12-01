@@ -1,0 +1,6 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Chat.lua"/>
+	<Script file="Scroll.lua"/>
+	<Script file="Hyperlinks.lua"/>
+	<Script file="Respecspam.lua"/>
+</Ui>

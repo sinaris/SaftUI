@@ -1,0 +1,8 @@
+## Interface: 50400
+## Author: Safturento
+## Version: 0.5
+## Title: |cff00aaffSaftUI_Config|r
+## Notes: Configuration menu for SaftUI.
+## LoadOnDemand: 1
+
+SaftUI_Config.xml

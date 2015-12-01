@@ -1,0 +1,10 @@
+local S, L, F = select(2, ...):unpack() --Import: Addon/Functions/Data, Locales, LibStringFormat
+
+local LT = S:NewModule('Loot', 'AceHook-3.0', 'AceEvent-3.0')
+
+function LT:OnInitialize()
+	self:InitializeGroupLootFrames()
+end
+
+
+

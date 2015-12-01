@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<themeName>Nummers per album</themeName>
+	<themeExplanation>Hiermee drukt u een lijst af met de albums uit de geselecteerde afspeellijst of bibliotheek. De albumtitel, de naam van de artiest, de titels van de nummers en de duur van de nummers worden afgedrukt.</themeExplanation>
+	<themeKind>albumlist</themeKind>
+	<themeSortOrder>1</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+</theme>

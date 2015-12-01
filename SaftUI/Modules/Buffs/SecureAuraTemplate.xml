@@ -1,0 +1,29 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Button name="SecureAuraTemplate" inherits="SecureActionButtonTemplate" virtual="true">
+		<Size x='30' y='30'/>
+		<Attributes>
+			<Attribute name="type" value="cancelaura"/>
+		</Attributes>
+		<Scripts>
+			<OnLoad>
+				local AU = SaftUI[1]:GetModule('Auras')
+				AU:CreateAura(self)
+				self:HookScript('OnAttributeChanged', AU.OnAttributeChanged)
+				self:RegisterForClicks("RightButtonUp");
+			</OnLoad>
+			<OnEnter>
+				GameTooltip:SetOwner(self, "ANCHOR_BOTTOMLEFT");
+				GameTooltip:SetFrameLevel(self:GetFrameLevel() + 2);
+				if(self:GetAttribute'index') then
+					GameTooltip:SetUnitAura(SecureButton_GetUnit(self:GetParent()), self:GetID(), self.filter)
+				elseif(self:GetAttribute'target-slot') then
+					GameTooltip:SetInventoryItem('player', self:GetID())
+				end
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+		</Scripts>
+	</Button>
+</Ui>

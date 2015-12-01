@@ -1,0 +1,13 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Script file="Unitframes.lua"/>
+	<Script file="RaidDebuffs.lua"/>
+	<Script file="Constructors.lua"/>
+	<Script file="Updaters.lua"/>
+	<script file="GroupFrames.lua"/>
+	<Script file="Colors.lua"/>
+	<Script file="Tags.lua"/>
+	<Script file="UpdateFunctions.lua"/>
+	<Script file="TestMode.lua"/>
+	
+</Ui>

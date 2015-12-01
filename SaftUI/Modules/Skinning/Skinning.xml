@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Skinning.lua"/>
+	
+	<!--Going to load everything out here so that finding the xml file isn't a nightmare-->
+	
+	<Include file="General\CharacterFrame.xml"/>
+	<Script file="General\CharacterFrame.lua"/>
+	<!-- <Script file="General\GameFonts.lua"/> -->
+	<!-- <Script file="General\InterfaceOptionsFrame.lua"/> -->
+	<!-- <Script file="General\VideoOptionsFrame.lua"/> -->
+	<!-- <Script file="General\QuestLogFrame.lua"/> -->
+	<!-- <Script file="General\DropDownList.lua"/> -->
+	<!-- <Script file="General\ChatConfigFrame.lua"/> -->
+	<!-- <Script file="General\FriendsFrame.lua"/> -->
+	<!-- <Script file="General\TimerTracker.lua"/> -->
+	
+	<Script file="Addons\Skada.lua"/>
+	<!-- <Script file="Addons\Recount.lua"/> -->
+	<Script file="Addons\WeakAuras.lua"/>
+	<!-- <Script file="Addons\DBM.lua"/> -->
+	<!-- <Script file="Addons\Archy.lua"/> -->
+</Ui>

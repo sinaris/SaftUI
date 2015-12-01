@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<themeName>Aangepast</themeName>
+	<themeExplanation>Hiermee drukt u de huidige weergave af van de nummers uit de geselecteerde afspeellijst of bibliotheek. Met &apos;Pagina-instelling&apos; kunt u de afdrukrichting aanpassen.</themeExplanation>
+	<themeKind>playlist</themeKind>
+	<themeSortOrder>4</themeSortOrder>
+	<themeMediaIndex>1</themeMediaIndex>
+	<playlist>
+	</playlist>
+</theme>

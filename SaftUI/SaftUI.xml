@@ -1,0 +1,32 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+
+	<Include file="Libs\Libs.xml"/>
+	<Script file="Media\SharedMedia.lua"/>
+	<Script file="Core\Engine.lua"/>
+	<Script file="Core\Api.lua"/>
+	<Script file="Core\Constants.lua"/>
+	<Script file="Core\Utilities.lua"/>
+	<Script file="Core\Initialize.lua"/>
+	
+	<Include file="Config\Config.xml"/>
+	
+	<Include file="Modules\Datatext\Datatext.xml"/>
+	<Include file="Modules\Chat\Chat.xml"/>
+	<Include file="Modules\Actionbars\Actionbars.xml"/>
+	<Include file="Modules\Unitframes\Unitframes.xml"/>
+	<Include file="Modules\Buffs\Buffs.xml"/>
+	<Include file="Modules\Maps\Maps.xml"/>
+	<Include file="Modules\Classbars\Classbars.xml"/>
+	<Include file="Modules\Mailbox\Mailbox.xml"/>
+	<Include file="Modules\Bags\Bags.xml"/>
+	<Include file="Modules\Tooltips\Tooltips.xml"/>
+	<Include file="Modules\Experience\Experience.xml"/>
+	<Include file="Modules\Nameplates\Nameplates.xml"/>
+	<Include file="Modules\Loot\Loot.xml"/>
+	<Include file="Modules\Skinning\Skinning.xml"/>
+	
+	<!-- <Include file="Config\Config.xml"/> -->
+
+	<Script file="Development\Commands.lua"/>
+	<Script file="Development\Development.lua"/>
+</Ui>

@@ -1,0 +1,19 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Button name="PaperDollSidebarTab4" parent="PaperDollSidebarTabs" inherits="PaperDollSidebarTabTemplate" id="4">
+        <Scripts>
+	        <OnLoad>	            
+	        </OnLoad>
+	    </Scripts>
+    </Button>
+
+    <Button name="ReputationBar16" parent="ReputationFrame" inherits="ReputationBarTemplate" id="16">
+        <Anchors>
+            <Anchor point="TOPRIGHT" relativeTo="ReputationBar15" relativePoint="BOTTOMRIGHT">
+                <Offset>
+                    <AbsDimension x="0" y="-3"/>
+                </Offset>
+            </Anchor>
+        </Anchors>
+    </Button>
+</Ui>

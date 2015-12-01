@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+	<Include file="Libs\Libs.xml"/>
+
+	<!-- <Script file="SaftUI_Config.lua"/> -->
+	
+	<Script file="General.lua"/>
+	<Script file="Unitframes.lua"/>
+	<Script file="Actionbars.lua"/>
+	<Script file="Chat.lua"/>
+	<Script file="Datatext.lua"/>
+	<Script file="Buffs.lua"/>
+	<Script file="Minimap.lua"/>
+	<Script file="Experience.lua"/>
+</Ui>
